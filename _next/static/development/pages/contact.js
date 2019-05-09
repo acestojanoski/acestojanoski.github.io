@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/contact.js"],{
 
 /***/ "../node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!************************************************************************!*\
@@ -7155,21 +7155,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Findex.js!./":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Findex.js ***!
-  \*********************************************************************************************************************************************************************************************/
+/***/ "../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Fcontact.js!./":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Fcontact.js ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/contact", function() {
+      var page = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/contact.js */ "./pages/contact.js", function() {
+          if(!next.router.components["/contact"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
+          next.router.update("/contact", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -26646,98 +26646,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./assets/icons/email.svg":
-/*!********************************!*\
-  !*** ./assets/icons/email.svg ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-
-function Email (props) {
-    return React.createElement("svg",props,[React.createElement("path",{"fill":"#000000","d":"M66.682,47.733L50.296,60.288L33.868,47.785l-18.352,18.25l0.013,5.547c0.002,1.598,1.389,2.888,3.089,2.881  l63.397-0.102c1.705,0.005,3.084-1.289,3.082-2.887l-0.008-5.539L66.682,47.733z","key":0}),React.createElement("polygon",{"fill":"#000000","points":"29.972,44.821 15.469,33.781 15.506,59.205 ","key":1}),React.createElement("polygon",{"fill":"#000000","points":"70.572,44.76 85.078,59.097 85.04,33.678 ","key":2}),React.createElement("g",{"key":3},[React.createElement("path",{"fill":"#000000","d":"M81.941,24.296l-63.399,0.093c-1.704,0.004-3.085,1.295-3.082,2.893v1.239l34.828,26.508l34.743-26.612   v-1.239C85.027,25.579,83.643,24.291,81.941,24.296z M60.73,37.464c-0.323,0.896-0.776,1.703-1.365,2.422   c-0.594,0.715-1.299,1.294-2.135,1.743c-0.834,0.45-1.764,0.68-2.779,0.698c-1.158-0.002-2.042-0.279-2.644-0.843   c-0.478,0.226-0.979,0.42-1.501,0.595c-0.523,0.169-1.185,0.254-1.979,0.259c-0.51-0.002-0.988-0.073-1.429-0.217   c-0.443-0.139-0.838-0.357-1.171-0.665c-0.334-0.301-0.601-0.688-0.797-1.146c-0.201-0.46-0.303-1.012-0.306-1.651   c0-1.012,0.181-1.937,0.537-2.776c0.351-0.844,0.843-1.57,1.464-2.185c0.614-0.611,1.332-1.085,2.151-1.427   c0.82-0.348,1.694-0.52,2.637-0.52c0.714-0.005,1.414,0.046,2.108,0.144c0.689,0.094,1.338,0.248,1.943,0.454l-1.518,7.568   c0.162,0.118,0.426,0.174,0.794,0.171c0.584,0.003,1.106-0.162,1.569-0.487c0.463-0.329,0.844-0.757,1.155-1.277   c0.304-0.52,0.542-1.097,0.701-1.733c0.153-0.625,0.233-1.251,0.233-1.863c-0.002-1.705-0.562-3.012-1.674-3.919   c-1.113-0.908-2.68-1.355-4.695-1.354c-1.564,0.002-2.947,0.253-4.159,0.751c-1.217,0.5-2.244,1.17-3.075,2.013   c-0.833,0.839-1.47,1.813-1.903,2.905c-0.434,1.094-0.653,2.227-0.653,3.402c0.002,1.073,0.174,1.988,0.521,2.746   c0.341,0.753,0.806,1.377,1.395,1.86c0.588,0.479,1.276,0.833,2.063,1.051c0.787,0.227,1.627,0.335,2.515,0.335   c0.829-0.005,1.594-0.051,2.292-0.148c0.7-0.097,1.333-0.249,1.909-0.46c0.141,0.328,0.278,0.667,0.406,1.012   c0.124,0.349,0.242,0.694,0.334,1.038c-0.281,0.133-0.632,0.259-1.024,0.37c-0.4,0.11-0.831,0.202-1.289,0.269   c-0.461,0.067-0.949,0.121-1.467,0.16c-0.519,0.04-1.027,0.061-1.538,0.061c-1.223,0-2.383-0.161-3.478-0.485   c-1.102-0.328-2.06-0.827-2.889-1.51c-0.827-0.674-1.479-1.518-1.961-2.542c-0.477-1.025-0.719-2.249-0.72-3.662   c0-1.325,0.253-2.657,0.774-4.017c0.508-1.356,1.301-2.573,2.362-3.675c1.057-1.097,2.419-1.986,4.062-2.682   c1.642-0.695,3.596-1.048,5.851-1.052c1.209,0.001,2.353,0.153,3.424,0.452c1.067,0.31,2.012,0.771,2.815,1.397   c0.801,0.623,1.439,1.401,1.909,2.348c0.466,0.948,0.703,2.056,0.708,3.33C61.219,35.652,61.055,36.56,60.73,37.464z","key":0}),React.createElement("path",{"fill":"#000000","d":"M51.15,34.096c-0.535,0-1.006,0.112-1.414,0.338c-0.417,0.227-0.765,0.527-1.055,0.897   c-0.292,0.372-0.512,0.792-0.661,1.29c-0.155,0.49-0.23,1-0.234,1.528c0.002,0.677,0.16,1.167,0.479,1.472   c0.314,0.302,0.726,0.449,1.243,0.446c0.323,0.003,0.602-0.021,0.838-0.064c0.229-0.044,0.485-0.109,0.762-0.187l1.034-5.612   c-0.177-0.044-0.343-0.072-0.498-0.087C51.491,34.1,51.324,34.095,51.15,34.096z","key":1})])]);
-}
-
-Email.defaultProps = {"version":"1.1","x":"0px","y":"0px","viewBox":"0 0 100 100","enableBackground":"new 0 0 100 100","xmlSpace":"preserve"};
-
-module.exports = Email;
-
-Email.default = Email;
-
-
-/***/ }),
-
-/***/ "./assets/icons/github.svg":
-/*!*********************************!*\
-  !*** ./assets/icons/github.svg ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-
-function Github (props) {
-    return React.createElement("svg",props,[React.createElement("title",{"key":0},"GitHub icon"),React.createElement("path",{"d":"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12","key":1})]);
-}
-
-Github.defaultProps = {"role":"img","viewBox":"0 0 24 24"};
-
-module.exports = Github;
-
-Github.default = Github;
-
-
-/***/ }),
-
-/***/ "./assets/icons/gitlab.svg":
-/*!*********************************!*\
-  !*** ./assets/icons/gitlab.svg ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-
-function Gitlab (props) {
-    return React.createElement("svg",props,[React.createElement("title",{"key":0},"GitLab icon"),React.createElement("path",{"d":"M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024","key":1})]);
-}
-
-Gitlab.defaultProps = {"role":"img","viewBox":"0 0 24 24"};
-
-module.exports = Gitlab;
-
-Gitlab.default = Gitlab;
-
-
-/***/ }),
-
-/***/ "./assets/icons/linkedin.svg":
-/*!***********************************!*\
-  !*** ./assets/icons/linkedin.svg ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-
-function Linkedin (props) {
-    return React.createElement("svg",props,[React.createElement("title",{"key":0},"LinkedIn icon"),React.createElement("path",{"d":"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z","key":1})]);
-}
-
-Linkedin.defaultProps = {"role":"img","viewBox":"0 0 24 24"};
-
-module.exports = Linkedin;
-
-Linkedin.default = Linkedin;
-
-
-/***/ }),
-
-/***/ "./components/About.js":
-/*!*****************************!*\
-  !*** ./components/About.js ***!
-  \*****************************/
+/***/ "./components/Contact.js":
+/*!*******************************!*\
+  !*** ./components/Contact.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -26751,167 +26663,117 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "../node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _assets_icons_linkedin_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/icons/linkedin.svg */ "./assets/icons/linkedin.svg");
-/* harmony import */ var _assets_icons_linkedin_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_linkedin_svg__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _assets_icons_gitlab_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/icons/gitlab.svg */ "./assets/icons/gitlab.svg");
-/* harmony import */ var _assets_icons_gitlab_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_gitlab_svg__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _assets_icons_github_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/icons/github.svg */ "./assets/icons/github.svg");
-/* harmony import */ var _assets_icons_github_svg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_github_svg__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _assets_icons_email_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/icons/email.svg */ "./assets/icons/email.svg");
-/* harmony import */ var _assets_icons_email_svg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_email_svg__WEBPACK_IMPORTED_MODULE_10__);
 
 
 
 
 
-var _jsxFileName = "/home/aleksandar/repos/acestojanoski.gitlab.io/src/components/About.js";
+var _jsxFileName = "/home/aleksandar/repos/acestojanoski.gitlab.io/src/components/Contact.js";
 
 
 
 
-
-
-
-
-var About =
+var Contact =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(About, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Contact, _Component);
 
-  function About() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, About);
+  function Contact() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Contact);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(About).apply(this, arguments));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Contact).apply(this, arguments));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(About, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Contact, [{
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Container"], {
         className: "page-section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 7
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 8
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 9
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Jumbotron"], {
         fluid: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 10
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Container"], {
         className: "text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 11
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 12
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, "Contact"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, "Email address:\xA0", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        target: "_blank",
+        href: "mailto:aleksandar-stojanoski@hotmail.com",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }, "Aleksandar Stojanoski"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, "Web developer"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "mailto:aleksandar-stojanoski@hotmail.com",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_assets_icons_email_svg__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        className: "link-icon-email",
+      }, "aleksandar-stojanoski@hotmail.com")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://www.linkedin.com/in/aleksandar-stojanoski-44a888139",
+      }, "LinkedIn:\xA0", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         target: "_blank",
+        href: "https://www.linkedin.com/in/aleksandar-stojanoski-44a888139",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_assets_icons_linkedin_svg__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        className: "link-icon",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://gitlab.com/acestojanoski/",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_assets_icons_gitlab_svg__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        className: "link-icon",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://github.com/acestojanoski",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_assets_icons_github_svg__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        className: "link-icon",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      })))))));
+      }, "Aleksandar Stojanoski")))))));
     }
   }]);
 
-  return About;
+  return Contact;
 }(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (About);
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
@@ -27047,10 +26909,10 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -27069,13 +26931,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_global_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_global_scss__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap */ "../node_modules/react-bootstrap/es/index.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-/* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/About */ "./components/About.js");
+/* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Contact */ "./components/Contact.js");
 
 
 
 
 
-var _jsxFileName = "/home/aleksandar/repos/acestojanoski.gitlab.io/src/pages/index.js";
+var _jsxFileName = "/home/aleksandar/repos/acestojanoski.gitlab.io/src/pages/contact.js";
 
 
 
@@ -27122,19 +26984,13 @@ function (_Component) {
           lineNumber: 14
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Contact__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      })))));
+      }))));
     }
   }]);
 
@@ -27145,14 +27001,14 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 0:
-/*!************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Findex.js ***!
-  \************************************************************************************************************************************************/
+/***/ 4:
+/*!*********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Fcontact.js ***!
+  \*********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Findex.js! */"../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Fcontact.js! */"../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2Fhome%2Faleksandar%2Frepos%2Facestojanoski.gitlab.io%2Fsrc%2Fpages%2Fcontact.js!./");
 
 
 /***/ }),
@@ -27168,5 +27024,5 @@ module.exports = dll_5369eb564c9e983c3093;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[4,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=contact.js.map
